@@ -13,7 +13,7 @@ export default function MainAvatar( ) {
       <Avatar
         alt="Ahmet Abdullah"
         
-        src="/public/ahmet-abdullah.jpg"
+        src="/ahmet-abdullah.jpg"
         sx={{
           width:{xs:300,sm:400,md:500},
           height:{xs:300,sm:400,md:500},
