@@ -39,7 +39,8 @@ const allSkills = [
   "SOLID Principles",
   "Render ",
   "Git",
-  "Github"
+  "Github",
+  "REACT JS","MUI"
 ];
 
 
