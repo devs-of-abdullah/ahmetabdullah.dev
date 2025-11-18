@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+--text-color: #8ecccc; 
+--text-color-second: #50717b; 
+--background-second: #3a4042;
+--background: #212121; 
+--fontfamily:'Share Tech Mono', monospace;
+}
+
+
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background);
+  font-family:'Share Tech Mono', monospace;
+ 
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
