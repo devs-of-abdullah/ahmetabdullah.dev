@@ -11,26 +11,24 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const projects = [
   {
-    title: "Smart Library Management System API",
+    title: "Library Management System API",
     description:
-      "The Smart Library Management System is a backend API built with ASP.NET Core and Entity Framework Core for managing books, users, and borrowing operations. It simulates a real-world library workflow, including borrow/return rules, late fees, soft deletes, and JWT authentication.",
+      "Library Management System backend APIs built with ASP.NET Core and Entity Framework Core for managing books, users, and loans and many operations. It simulates a real-world library workflow, including JWT authentication.",
     codeLink:
       "https://github.com/devs-of-abdullah/Smart-Libary-Management-System",
   },
   {
-    title: "E-Commerce Backend API",
+    title: "Chat App Backend API",
     description:
-      "The E-Commerce Backend API is a backend system built with ASP.NET Core Web API and Entity Framework Core.It manages products, categories, carts, orders, and discounts, simulating real-world e-commerce workflows.",
-    codeLink: "https://github.com/devs-of-abdullah/E-Commerce-Backend-API",
+      " A structured 4-layer messaging application built with C# and EF Core. It supports 3 communication modes: direct messages, received messages, and group messages. The system includes secure JWT authentication, user login, and a clean architecture divided into API, Business, Data, and Entity layers",
+    codeLink: "https://github.com/devs-of-abdullah/ChatApp_Backend_API",
   },
   {
-    title: " Hotel Booking & Reservation System API",
+    title: " Bank System API",
     description:
-      "It is a backend API project built with ASP.NET Core web API and Entity Framework Core. It manages rooms, room types, bookings, and pricing, including date conflict validation and invoice generation",
-    codeLink:
-      "https://github.com/devs-of-abdullah/Hotel-Booking-And-Reservation-System-API",
+      " backend system allowing users to register, log in, and manage financial data. It handles Users, Accounts, and Transactions, offering endpoints to create accounts, record transactions, and retrieve user information—all built on a clean 3-tier .NET architecture.",
+    codeLink: "https://github.com/devs-of-abdullah/Banksystem_API",
   },
- 
 ];
 
 export default function Projects() {

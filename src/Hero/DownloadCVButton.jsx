@@ -7,8 +7,8 @@ export default function DownloadCVButton() {
         variant="contained"
         startIcon={<DownloadIcon />}
         component="a"
-        href="/AhmetAbdullahCV.pdf"
-        download="Ahmet_Abdullah_CV.pdf"
+        href="/Ahmet_Abdullah_CV.pdf"
+        download="/Ahmet_Abdullah_CV.pdf"
         sx={{
           display:"flex",
           justifySelf:"center",
