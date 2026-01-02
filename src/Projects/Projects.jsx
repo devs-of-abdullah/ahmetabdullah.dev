@@ -11,23 +11,23 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const projects = [
   {
-    title: "Library Management System API",
-    description:
-      "Library Management System backend APIs built with ASP.NET Core and Entity Framework Core for managing books, users, and loans and many operations. It simulates a real-world library workflow, including JWT authentication.",
-    codeLink:
-      "https://github.com/devs-of-abdullah/Smart-Libary-Management-System",
-  },
-  {
-    title: "Chat App Backend API",
-    description:
-      " A structured 4-layer messaging application built with C# and EF Core. It supports 3 communication modes: direct messages, received messages, and group messages. The system includes secure JWT authentication, user login, and a clean architecture divided into API, Business, Data, and Entity layers",
-    codeLink: "https://github.com/devs-of-abdullah/ChatApp_Backend_API",
-  },
-  {
     title: " Bank System API",
     description:
-      " backend system allowing users to register, log in, and manage financial data. It handles Users, Accounts, and Transactions, offering endpoints to create accounts, record transactions, and retrieve user information—all built on a clean 3-tier .NET architecture.",
+      " An employee management backend API built with ASP.NET Core, supporting employee, role, and department management. Implements clean, layered architecture, relational data modeling, and validation using Entity Framework Core.",
     codeLink: "https://github.com/devs-of-abdullah/Banksystem_API",
+  },
+  {
+    title: "Chat System API",
+    description:
+      "A real-time chat backend built with ASP.NET Core and SignalR, enabling instant user-to-user messaging. Designed using clean, layered architecture with DTO-based data transfer, validation, and Entity Framework Core for data persistence.",
+    codeLink: "https://github.com/devs-of-abdullah/Chat_System_API",
+  },
+  {
+    title: "Employee Management System API",
+    description:
+      "A banking system API developed with ASP.NET Core to manage accounts, deposits, withdrawals, and inter-account transfers. Focuses on secure transaction workflows, business rule validation, and clean architecture using Entity Framework Core.",
+    codeLink:
+      "https://github.com/devs-of-abdullah/Employee-Management-System_API",
   },
 ];
 

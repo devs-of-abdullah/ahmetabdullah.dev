@@ -22,25 +22,11 @@ export default function SkillsPage() {
  
 
 const allSkills = [
-  "C++","DS","OOP",
-  "C#",  
-  ".NET Core",
-  "WinForms",
-  "Windows Services",
-  "RESTful APIs",
-  "ADO.NET",
-  "Entity Framework Core",
-  "T-SQL",
-  "PostgreSQL",
-  "SignalR",
-  "JWT Auth",
-  "Clean Code",
-  "N-Tier Architecture",
-  "SOLID Principles",
-  "Render ",
-  "Git",
-  "Github",
-  "REACT JS","MUI"
+  "C#","ASP.NET Core","EF Core","SignalR","SQL Server",
+  "RESTful API","CRUD Operations","Authentication & Authorization",
+  "Validations","Clean Architecture", "Layered (N-Tier) Architecture"
+  ,"Git","GitHub"
+ 
 ];
 
 
