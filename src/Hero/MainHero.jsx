@@ -9,7 +9,7 @@ export default function MainHero(){
       <Box
         sx={{
           display: "flex",
-          flexDirection: { xs: "column", sm: "column", md: "row" }, // ⬅️ responsive
+          flexDirection: { xs: "column", sm: "column", md: "row" }, 
           
           mt: 6,
         }}

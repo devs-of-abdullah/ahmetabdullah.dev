@@ -22,17 +22,12 @@ export default function SkillsPage() {
  
 
 const allSkills = [
-  "HTML","CSS","Java Script","C#","ASP.NET Core","EF Core","SignalR","SQL Server",
+  "HTML","CSS","Java Script","Type Script","ReactJS","Redux","Material UI","Next JS","Firebase","C#","ASP.NET Core","EF Core","SignalR","SQL Server",
   "RESTful API","Authentication & Authorization",
   "SOLID Principles","Clean Architecture", "Layered (N-Tier) Architecture"
   ,"Git","GitHub"
  
 ];
-
-
-
-
-
   return (
     <Box sx={{ textAlign: "center", mt: 5, mb: 10 }}>
       <Divider
