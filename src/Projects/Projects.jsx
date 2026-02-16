@@ -29,6 +29,12 @@ const projects = [
     codeLink:
       "https://github.com/devs-of-abdullah/Employee-Management-System_API",
   },
+  {
+    title: "Core Api Foundation",
+    description:
+      "ASP.NET Core Web API starter template with layered architecture (API, Business, Data, Entities, DTO). Includes HTTPS + CORS foundation, JWT authentication, role-based authorization, ownership policies, refresh tokens & logout, rate limiting, and logging & auditing. Designed for secure, production-ready, and reusable backend projects.",
+    codeLink: "https://github.com/devs-of-abdullah/CoreApiFoundation",
+  },
 ];
 
 export default function Projects() {
