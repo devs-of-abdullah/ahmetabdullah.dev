@@ -11,29 +11,28 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 const projects = [
   {
-    title: " Bank System API",
+    title: "HR Management System API",
     description:
-      " An employee management backend API built with ASP.NET Core, supporting employee, role, and department management. Implements clean, layered architecture, relational data modeling, and validation using Entity Framework Core.",
-    codeLink: "https://github.com/devs-of-abdullah/Banksystem_API",
+      "Developed a Clean, layered ASP.NET Core Web API for employee management and HR operations. Implemented JWT authentication with refresh tokens and role-based authorization. Designed RESTful APIs using Entity Framework Core and SQL Server while ensuring scalability, maintainability, and separation of concerns.",
+    codeLink: "https://github.com/devs-of-abdullah/HR_Management_System_API",
   },
   {
     title: "Chat System API",
     description:
-      "A real-time chat backend built with ASP.NET Core and SignalR, enabling instant user-to-user messaging. Designed using clean, layered architecture with DTO-based data transfer, validation, and Entity Framework Core for data persistence.",
+      "Developed a secure real-time messaging platform using ASP.NET Core Web API and SignalR. Implemented JWT authentication and role-based authorization for secure user access. Applied Clean Architecture principles with Entities, DTOs, Repository, and Service layers to ensure maintainability and separation of concerns. Built RESTful APIs for conversation management and integrated Entity Framework Core with SQL Server for message persistence and conversation history. Enabled real-time user-to-user messaging using SignalR. ",
     codeLink: "https://github.com/devs-of-abdullah/Chat_System_API",
   },
   {
-    title: "Employee Management System API",
+    title: " Bank System API",
     description:
-      "A banking system API developed with ASP.NET Core to manage accounts, deposits, withdrawals, and inter-account transfers. Focuses on secure transaction workflows, business rule validation, and clean architecture using Entity Framework Core.",
-    codeLink:
-      "https://github.com/devs-of-abdullah/Employee-Management-System_API",
+      "Built a secure ASP.NET Core Web API following Clean Architecture and multilayered design principles. Developed RESTful APIs for user management, account operations, and transactional processing using Entity Framework Core and SQL Server. Implemented JWT authentication, role-based authorization, and database transaction handling to ensure secure and reliable banking operations.",
+    codeLink: "https://github.com/devs-of-abdullah/Bank_System_API",
   },
   {
-    title: "Core Api Foundation",
+    title: "Auth API Template",
     description:
       "ASP.NET Core Web API starter template with layered architecture (API, Business, Data, Entities, DTO). Includes HTTPS + CORS foundation, JWT authentication, role-based authorization, ownership policies, refresh tokens & logout, rate limiting, and logging & auditing. Designed for secure, production-ready, and reusable backend projects.",
-    codeLink: "https://github.com/devs-of-abdullah/CoreApiFoundation",
+    codeLink: "https://github.com/devs-of-abdullah/Auth_Template_API_V1",
   },
 ];
 

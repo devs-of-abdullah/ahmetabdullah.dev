@@ -18,19 +18,20 @@ export default function Description() {
       </Typography>
 
       <Typography fontSize={20} variant="" color="var(--text-color-second)">
-         Full-Stack Developer
+        Full-Stack Developer
       </Typography>
       <Divider
         sx={{ backgroundColor: "var(--background-second)", height: 4, m: 2 }}
       />
 
       <Typography variant="" component="p" m={2}>
-        I’m a third-year Software Engineering student focused on full-stack
-        development, building well-structured and maintainable applications with
-        clean, well-designed software practices. I have a strong programming
-        foundation, which allows me to quickly adapt to new tools and
-        technologies. I’m currently open for internship or part-time
-        opportunities to gain working experience on real-world projects.
+        Backend-focused third-year Software Engineering student with hands-on
+        experience developing secure and scalable ASP.NET Core Web APIs using
+        Clean Architecture and layered architecture principles. Strong
+        foundation in C#, Entity Framework Core, SQL Server, RESTful API
+        development,authentication, and authorization. Seeking a software
+        development internship to contribute to realworld backend projects and
+        further develop professional engineering skills.
       </Typography>
     </Container>
   );
